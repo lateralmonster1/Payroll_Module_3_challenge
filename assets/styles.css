@@ -1,97 +1,112 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
+    font-family: Arial, sans-serif; /* Sets the font for the body */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background color */
+    margin: 0; /* Removes default margin */
 }
 
+/* Main container styling */
 #app {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    text-align: center;
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 400px; /* Fixed width */
+    text-align: center; /* Centered text alignment */
 }
 
+/* Heading styling */
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space below the heading */
 }
 
+/* Employee roster table container */
 #employee-roster {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space below the table */
 }
 
+/* Table styling */
 #employee-roster table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Removes space between table cells */
 }
 
+/* Table header and cell styling */
 #employee-roster th,
 #employee-roster td {
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 10px; /* Padding inside table cells */
+    border: 1px solid #ddd; /* Light grey border */
 }
 
+/* Button styling for adding employees */
 #add-employee-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the button */
 }
 
+/* Hover effect for add employee button */
 #add-employee-btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
+/* Employee form container styling */
 #employee-form-container {
-    display: none;
-    margin-top: 20px;
+    display: none; /* Initially hidden */
+    margin-top: 20px; /* Space above the form */
 }
 
+/* Form styling */
 #employee-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column layout */
+    gap: 10px; /* Space between form elements */
 }
 
+/* Input field styling */
 #employee-form input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 10px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Button styling within the form */
 #employee-form button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Submit button styling */
 #employee-form button[type="submit"] {
-    background-color: #28a745;
-    color: white;
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
 }
 
+/* Hover effect for submit button */
 #employee-form button[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #218838; /* Darker green on hover */
 }
 
+/* Cancel button styling */
 #employee-form button[type="button"] {
-    background-color: #dc3545;
-    color: white;
+    background-color: #dc3545; /* Red background */
+    color: white; /* White text color */
 }
 
+/* Hover effect for cancel button */
 #employee-form button[type="button"]:hover {
-    background-color: #c82333;
+    background-color: #c82333; /* Darker red on hover */
 }
